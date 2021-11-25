@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:ital@0;1&display=swap');
+
+body {
+    background-image: url("./equalizer-music-black-background-1080P-wallpaper.jpg");
+    background-size: 100%;
+    color: honeydew;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+.key {
+    border: 2px solid grey;
+    padding: 0.3rem;
+    text-align: center;
+    margin: 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 5px grey;
+    transition: all 0.07s;
+    padding: 1rem;
+    margin-top: 15%;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+    color: greenyellow;
+}
+
+kbd {
+    display: block;
+    font-size: 20px;
+}
+
+.keycontainer {
+    display: flex;
+    flex: 1;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sound {
+    color: #00cc44;
+}
+
+.fab {
+    color: #00cc44;
+    text-align: center;
+    justify-content: center;
+}
